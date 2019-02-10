@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="../StyleSheet1.css">
+    <title>Basilica Cistern</title>
+
+    <script>
+        function message() {
+            alert("The fields have been reseted.");
+        }
+
+        function message2() {
+            alert("Thanks for submitting your form!");
+        }
+    </script>
+</head>
+<body>
+
+    <!-- TOP NAVIGATION BAR  -->
+    <div class="topnav">
+        <a id="logo">$safeprojectname$</a>
+        <a href="home.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="placestogo.html">Places To Go</a>
+        <a class="active" href="about_contact.html">About & Contact</a>
+    </div>
+
+    <!-- ABOUT  -->
+
+    <div class="text">
+
+        <p>
+            This website is made by Musa Emre Yagci, Vistula University Computer Engineering student, for Internet Techniques Lab project.<br><br>
+            You can send us your suggestions and feedbacks by filling the contact form below.
+        </p>
+
+    <!-- CONTACT FORM -->
+
+        <div class="form">
+            <center>
+                <div class="head"><b>CONTACT FORM</b></div>
+                <form onreset="message()" onsubmit="message2()" method="get">
+                    <table style="width:70%;" border="1">
+                        <tr>
+                            <td>Name</td>
+                            <td> <input id="Name" name="Name" type="text" /> </td>
+                        </tr>
+                        <tr>
+                            <td>Last name</td>
+                            <td> <input id="Lastname" name="Lastname" type="text" /> </td>
+                        </tr>
+                        <tr>
+                            <td>Mail</td>
+                            <td> <input id="mail" name="mail" type="text" /> </td>
+                        </tr>
+                        <tr>
+                            <td>Suggestions & Feedback</td>
+                            <td> <input id="suggestions" name="Suggestions & Feedback" type="text" size="30" /> </td>
+                        </tr>
+                        <tr>
+                            <td>Reset</td>
+                            <td> <input id="Reset" name="reset" type="reset" /> </td>
+                        </tr>
+                        <tr>
+                            <td>Submit</td>
+                            <td> <input id="submit" name="submit" type="submit" /> </td>
+                        </tr>
+                    </table>
+                </form>
+        </div></center>
+    </div>
+
+
+</body>
+	</html>

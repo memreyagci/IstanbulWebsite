@@ -1,0 +1,48 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>ISTANBUL</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>ISTANBUL</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="PRJ.csproj" File="PRJ.csproj" ReplaceParameters="true">
+      <Folder Name="html" TargetFolderName="html">
+        <ProjectItem ReplaceParameters="true" TargetFileName="about_contact.html">about_contact.html</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="basilica.html">basilica.html</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="dolmabahce.html">dolmabahce.html</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="grandbazaar.html">grandbazaar.html</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hippodrome.html">hippodrome.html</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="history.html">history.html</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="home.html">home.html</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="placestogo.html">placestogo.html</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="uskudar.html">uskudar.html</ProjectItem>
+      </Folder>
+      <Folder Name="images" TargetFolderName="images">
+        <ProjectItem ReplaceParameters="false" TargetFileName="background.jpg">background.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="basilica.jpg">basilica.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="dolmabahce.jpg">dolmabahce.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="dolmabahce2.jpg">dolmabahce2.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="grandbazaar.jpg">grandbazaar.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="hippodrome.jpg">hippodrome.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="home.jpg">home.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="turkishflag.jpg">turkishflag.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="uskudar.jpg">uskudar.jpg</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="StyleSheet1.css">StyleSheet1.css</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

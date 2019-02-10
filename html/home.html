@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="../StyleSheet1.css">
+    <title>Welcome To Istanbul!</title>
+
+    <script>
+        function printPage() {
+            window.print();
+        }
+    </script>
+</head>
+<body>
+
+<!-- TOP NAVIGATION BAR  -->
+	<div class="topnav">
+		<a id="logo">$safeprojectname$</a>
+		<a class="active" href="home.html">Home</a>
+		<a href="history.html">History</a>
+		<a href="placestogo.html">Places To Go</a>
+		<a href="about_contact.html">About & Contact</a>
+	</div>
+
+<!-- HOME  -->
+
+	<div id="Home" class="text">
+	    <h1><b>WELCOME TO $safeprojectname$!</b></h1>
+	    <p>You can find information about history of Istanbul, where to go when you visit it and some basic information about them.</p>
+	
+	    <center><img src="../images/turkishflag.jpg"></center>
+
+	    <div id="quotes">
+	        <p id="fsm">"Either I conquer Istanbul or Istanbul conquers me."<br>Fatih Sultan Mehmet</p>
+
+	        <p id="nb">"If the Earth were a single state, Istanbul would be its capital."<br>Napoleon Bonaparte</p>
+	    </div>
+
+    </div>
+
+
+    <input type="button" value="Print this page" onclick="printPage()" />
+
+
+</body>
+</html>
